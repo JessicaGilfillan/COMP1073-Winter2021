@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smooting: grayscale; 
+  box-sizing: border-box; 
+}
+
+html, 
+body {
+  height: 100%;
+  font-size: 1em; 
+}
+
+body {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.container {
+  text-align: center;
+  height: 100%;  
+}
+
+.details {
+  background-color: #f2c438;
+  padding: 30px;
+  width: 100%;
+}
+
+.accessCode {
+  background-color: #14D990;
+  padding: 30px;
+  width: 100%;
+}
+
+ul {
+  padding: 30px; 
+}
+
+ul li {
+  list-style: none;
+  line-height: 30px 0 45px 0;
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 4em; 
+  padding: 1.5em 0 1em 0; 
+  font-family: 'Bangers', cursive;
+}
+
+h2 { 
+  font-size: 3em; 
+  padding-bottom: 40px;
+  font-family: 'Bangers', cursive;
+}
+
+.accessCode h2 {
+  color: #fff; 
+}
+
+form {
+  padding-bottom: 40px; 
+}
+
+p {
+  font-size: 1.2em;
+  width: 70%; 
+  margin:20px auto;   
+}
+
+
+
+
+
