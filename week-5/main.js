@@ -36,7 +36,7 @@ function accessCode(e) {
 	} else if (userAccess === 8893) {
 		h2.textContent = "Activity Two Challenge - Node or Not? ";
 		para1.innerHTML =
-			'Each node in the DOM tree is an object with methods and properties. Every the document, elements, pieces of text and even whitespace in the HTML is represented by it’s own DOM node. For this challenge, navigate to <a href="https://github.com/JessicaGilfillan/AllAboutTheDOM/tree/master/active-learning/02-node-or-not-a-node"> https://github.com/JessicaGilfillan/AllAboutTheDOM/tree/master/active-learning/02-node-or-not-a-node </a> and download the code provided. Identify each node with a comment and then include a number at the bottom detailing the total amount of nodes on the page (comments not included.) <strong>This is Part Two of Lab 2.</strong> ';
+			'Each node in the DOM tree is an object with methods and properties. The document, elements, pieces of text and even whitespace in the HTML is represented by it’s own DOM node. For this challenge, navigate to <a href="https://github.com/JessicaGilfillan/AllAboutTheDOM/tree/master/active-learning/02-node-or-not-a-node"> https://github.com/JessicaGilfillan/AllAboutTheDOM/tree/master/active-learning/02-node-or-not-a-node </a> and download the code provided. Identify each node with a comment and then include a number at the bottom detailing the total amount of nodes on the page (comments not included.) <strong>This is Part Two of Lab 2.</strong> ';
 		para2.innerHTML =
 			"The access code for your next activity is <span>120521</span>";
 		iframe.style.display = "block";
